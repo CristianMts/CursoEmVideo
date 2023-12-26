@@ -1,0 +1,5 @@
+s = float(input('Qual é o seu salário: R$ '))
+print('O valor do seu salário reajustado será de R$ {:.2f}!'.format(s * 1.15))
+# salário = float(input('Qual é salário do Funcionário? R$ '))
+# novo = salário + (salário * 15 / 100)
+# print('OUm funcionário que ganhava R${:.2f}, com 15% de aumento, passa a receber R${:.2f}'.format(salário, novo))

@@ -1,0 +1,10 @@
+#frase = input('Digite uma pequena frase:\n ')
+#lfrase = frase.lower()
+#print('Aparecem {} vezes a letra A na frase digitada!' .format(lfrase.count('a')))
+#print('A primeira letra A está na posição {}' .format(int(lfrase.find('a')) + 1))
+#print('A ultima letra A está na posição {}' .format(int(lfrase.rfind('a')) + 1))
+
+frase = str(input('Digite uma frase:\n')).upper().strip()
+print('A letra A aparece {} vezes na frase.'.format(frase.count('A')))
+print('A primeira letra A apareceu na posição {}'.format(frase.find('A')+1))
+print('A última letra A apareceu na posição {}'.format(frase.rfind('A')+1))
